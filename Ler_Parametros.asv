@@ -1,0 +1,5 @@
+Populacao_Inicial = load  ('Matriz.txt'                   );
+Num_Geracoes      = input ('Insira o Numero de Gerações: ');
+Tam_Populacao     = input ('Insira o Tamanho da População: ');
+Taxa_Cruzamento   = input ('Insira Taxa de Cruzamento: ');
+Taxa_Mutacao      = input ('Insira a Taxa de Mutação: ');

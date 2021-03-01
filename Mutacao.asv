@@ -1,0 +1,20 @@
+Pop_Mutacao = Pop_Cruz;
+cont=1;
+%Met_Tam = Tam_Populacao/2;
+while(cont < Tam_Populacao)
+    indv1 = round (1 + rand * (Tam_Populacao-1));    
+    x1=0;
+    while x1==0,
+          indv2 = round (1 + rand * (Tam_Populacao-1));
+          if(indv2 ~= indv1)
+             x1=1;
+          end,
+    end,
+    Tx = rand (1);
+    if Tx <= Taxa_Mutacao
+       Muta        
+    else
+       Pop_Mutacao(w,:) = Pop_Cruz(w,:) = Pop_Selecionada(Ind1,:);       
+    end 
+    cont=cont+2;
+end,   
