@@ -3,7 +3,7 @@ Algoritmo Genético implementado para resolver o problema do Caixeiro Viajante. 
 
 <h3> O Problema do Caixeiro Viajante </h3>
 
-O problema do caixeiro-viajante (PCV), travelling salesman problem (TSP) (em inglês) , é um problema de otimização que, apesar de parecer modesto é, na realidade, muito investigado por cientistas, matemáticos e investigadores de diversas áreas, tais como: logística, genética e produção, entre outros (Applegate et al., cop. 2006, p. 1).
+O problema do caixeiro-viajante (PCV), travelling salesman problem (TSP) (em inglês), é um problema de otimização que, apesar de parecer modesto é, na realidade, muito investigado por cientistas, matemáticos e investigadores de diversas áreas, tais como: logística, genética e produção, entre outros (Applegate et al., cop. 2006, p. 1).
 
 O problema pertence à categoria NP-Completo que o remete para um campo de complexidade exponencial, isto é, o esforço computacional necessário para a sua resolução cresce exponencialmente com o tamanho do problema. Assim, dado que é difícil, se não impossível, determinar a solução óptima desta classe de problemas, os métodos de resolução passam pelas heurísticas e afins que, do ponto de vista matemático, não asseguram a obtenção de uma solução óptima (Cunha, 2002).
 
