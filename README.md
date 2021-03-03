@@ -44,7 +44,7 @@ Embora tenham sido desenvolvidos bons algoritmos de aproximação para o PCV, o 
 
 <h3> Implementação </h3>
 
-É implementado um ALGORITMO GENÉTICO para solução do problema do caixeiro viajante. A implementação possui as seguintes características:
+É implementado um algoritmo genético para solução do problema do caixeiro viajante. A implementação possui as seguintes características:
 
 - Permitie a definição dos parâmetros: tamanho da população, número de gerações, taxa de cruzamento, taxa de mutação;
 - Recebe o valor das distâncias entre as cidades na forma de matriz (arquivo matriz.txt);
