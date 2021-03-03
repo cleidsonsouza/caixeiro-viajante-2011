@@ -17,7 +17,7 @@ Nos anos de 1800, problemas relacionados com o PCV começaram a ser desenvolvido
 O problema do caixeiro-viajante (representado na Figura 1) consiste na procura de um circuito que possua a menor distância, começando numa qualquer cidade, entre várias, visitando cada cidade precisamente uma vez
 e regressando à cidade inicial (Nilsson, 1982).
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Example_The_travelling_salesman_problem_%28TSP%29.gif"> <figcaption>Figura 1 - Problema do caixeiro-viajante.</figcaption>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Example_The_travelling_salesman_problem_%28TSP%29.gif"> <figcaption>Figura 1 - Problema do caixeiro-viajante.</figcaption>
 
 Dado um conjunto  <img src="http://upload.wikimedia.org/math/0/6/6/066b5999f8023b91253c90332f204047.png"> de n cidades c<sub>i</sub> e uma matriz de distâncias
 <img src="http://upload.wikimedia.org/math/7/c/7/7c739d501ff76140601e4bcb6f2352f5.png">, onde <img src="http://upload.wikimedia.org/math/0/b/6/0b64e25e6d9320e392948c287821ccff.png">
@@ -42,9 +42,9 @@ Embora tenham sido desenvolvidos bons algoritmos de aproximação para o PCV, o 
 - Existem vários conjuntos de dados sobre o PCV «standard» que estão disponíveis em literatura, de tal forma que os resultados são comparáveis mesmo que o óptimo global não seja ainda definitivamente conhecido;
 - Relativamente à complexidade computacional, o PCV, como um problema NP-completo, é conhecido por representar uma larga classe de problemas para os quais não existem algoritmos polinomiais em séries temporais determinísticos.
 
-<h3> Implementação </h3>
+<h3> Detalhes de Implementação </h3>
 
-É implementado um algoritmo genético para solução do problema do caixeiro viajante. A implementação possui as seguintes características:
+A implementação possui as seguintes características:
 
 - Permitie a definição dos parâmetros: tamanho da população, número de gerações, taxa de cruzamento, taxa de mutação;
 - Recebe o valor das distâncias entre as cidades na forma de matriz (arquivo matriz.txt);
